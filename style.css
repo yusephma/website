@@ -109,7 +109,7 @@ body {
 .mainPic { 
   display: block;
   object-fit: contain;
-  max-width: 100%
+  width: 100%
 }
 
 .method { 
