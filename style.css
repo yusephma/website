@@ -2,6 +2,13 @@
   --bakingHeight: 250px;
 }
 
+h1 { font-size: 2vw; }
+h2 { font-size: 1.5vw; }
+h3 { font-size: 1.17vw; }
+h4 { font-size: 1.12vw; }
+h5 { font-size: .83vw; }
+h6 { font-size: .75vw; }
+
 body {
   background-color: rgb(248, 248, 248);
   margin: 0;
@@ -108,7 +115,7 @@ body {
 
 .mainPic { 
   grid-area: 2 / 2 / 3 / 3;
-  width: 200px;
+  width: 100%;
   object-fit: contain;
   max-height: 100%;
 }
