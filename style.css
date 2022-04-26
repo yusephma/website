@@ -123,6 +123,8 @@ body {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  width: 80%;
+  margin: auto;
 }
 
 .contentsButton a:hover {
