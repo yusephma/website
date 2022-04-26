@@ -128,12 +128,6 @@ body {
 }
 
 .contentsList a.contentsButton:hover{
-  background-color: #04AA6D;
-  color: black;
-}
-
-.contentsButton a:hover {
-  background-color: #04AA6D;
   color: black;
 }
 
