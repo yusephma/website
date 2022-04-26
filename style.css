@@ -10,6 +10,7 @@ body {
 body {
   flex-direction: column;
   display: flex;
+  font-size: 1vw;
 }
 .centre {
   display: block;
@@ -24,6 +25,7 @@ body {
 .title {
   font-family: Arial;
   text-align: center;
+
 }
 #mainbodyblock {
   margin-right: auto;
@@ -106,7 +108,7 @@ body {
 
 .mainPic { 
   grid-area: 2 / 2 / 3 / 3;
-  width: 100%;
+  width: 200px;
   object-fit: contain;
   max-height: 100%;
 }
