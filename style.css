@@ -89,33 +89,28 @@ body {
 
 /* Baking container */
 .bakingBlock {  
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 50% 50%;
   margin: 20px 20px;
 }
 
 .bakeName {  
-  display: flex;
-  width: 100%;
-  height: 50px;
+  grid-area: bakeName | 1 / 1 / 2 / 3;
   text-align: left;
 }
 
 .ingredients { 
-  display: flex;
+  grid-area: ingredients | 2 / 1 / 3 / 2;
   text-align: left;
 }
 
 .mainPic { 
-  display: block;
+  grid-area: ingredients | 2 / 2 / 3 / 3;
   object-fit: contain;
-  width: 100%
 }
 
 .method { 
-  display: flex;
-
-
+  grid-area: ingredients | 3 / 1 / 4 / 2;
 }
 
 .contentsList{
